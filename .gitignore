@@ -1,0 +1,50 @@
+# Build e dependências
+bin/
+obj/
+out/
+packages/
+*.dll
+*.exe
+*.pdb
+*.db
+*.mdb
+
+# Configurações locais do usuário
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+
+# Cache e temporários
+*.cache
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Sistema
+Thumbs.db
+Desktop.ini
+
+# Secrets e credenciais
+appsettings.Development.json
+appsettings.Local.json
+*.secret.json
+
+# Docker
+*.pid
+*.tar
+*.gz
+
+# Ambiente
+.env
+.env.*
+docker-compose.override.yml
+
+# Outros desnecessários
+*.ncrunchsolution
+*.ncrunchproject
+TestResults/
+coverage/
