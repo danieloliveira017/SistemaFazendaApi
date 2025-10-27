@@ -7,14 +7,14 @@ Projeto voltado para portfólio e aprendizado prático de arquitetura em camadas
 
 O projeto segue uma arquitetura em camadas, separando responsabilidades de forma clara:
 
-SistemaFazendaApi/
-│
-├── Api/             # Controllers (camada de apresentação)
-├── Application/     # Serviços e regras de negócio
-├── Domain/          # Entidades, DTOs e enums
-├── Infrastructure/  # Banco de dados, repositórios e contexto
-├── Tests/           # Testes unitários e de integração (futuro)
-└── README.md
+SistemaFazendaApi:
+    
+    ├── Api/             # Controllers (camada de apresentação)
+    ├── Application/     # Serviços e regras de negócio
+    ├── Domain/          # Entidades, DTOs e enums
+    ├── Infrastructure/  # Banco de dados, repositórios e contexto
+    ├── Tests/           # Testes unitários e de integração (futuro)
+    └── README.md
 
 
 Vantagens:
@@ -119,4 +119,3 @@ Planejar coleta de dados IoT para agricultura
 Daniel Dourado de Oliveira
 📍 Jales-SP
 📧 danieloliveirask891@gmail.com
-📞 (14) 99111-4315
